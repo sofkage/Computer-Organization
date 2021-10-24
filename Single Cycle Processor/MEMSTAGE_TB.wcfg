@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/HMMY/project_cpu_1/MEMSTAGE_topmodule_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="memstage_topmodule_test" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/memstage_topmodule_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_topmodule_test/byteop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">byteop</obj_property>
+      <obj_property name="ObjectShortName">byteop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_topmodule_test/mem_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wren</obj_property>
+      <obj_property name="ObjectShortName">mem_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_topmodule_test/alu_mem_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_mem_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_topmodule_test/mem_datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_datain[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_topmodule_test/mem_dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_dataout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_topmodule_test/uut/memory_ram/ram[256]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[256]</obj_property>
+      <obj_property name="ObjectShortName">ram[256]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_topmodule_test/uut/memory_ram/ram[257]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[257]</obj_property>
+      <obj_property name="ObjectShortName">ram[257]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_topmodule_test/uut/memory_ram/ram[258]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[258]</obj_property>
+      <obj_property name="ObjectShortName">ram[258]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_topmodule_test/uut/memory_ram/ram[259]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[259]</obj_property>
+      <obj_property name="ObjectShortName">ram[259]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_topmodule_test/uut/memory_ram/ram[260]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[260]</obj_property>
+      <obj_property name="ObjectShortName">ram[260]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_topmodule_test/uut/memory_ram/ram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram[2047:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[2047:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
